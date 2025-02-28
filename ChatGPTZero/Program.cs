@@ -1,38 +1,42 @@
-﻿﻿using System;
+﻿using System;
 
-namespace ChatGPTOne
+namespace ChatGPTZero
 {
     public class Program
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello LP1!");
-            while (true)
-            {
-                Console.Write("Place your question (EXIT to leave): ");
-                string question = Console.ReadLine();
-                string response;
+            // Variáveis auxiliares
+            string question, response;
 
-                if (question.Equals("EXIT", StringComparison.OrdinalIgnoreCase))
-                {
-                    response = "Goodbye!";
-                    Console.WriteLine(response);
+            // Colocar questão ao utilizador
+            Console.Write("Place your question? ");
+            question = Console.ReadLine();
+
+            // Verificar se se trata de uma questão conhecida e determinar uma
+            // resposta adequada
+            switch (question)
+            {
+                case "What's your name?":
+                    response = "William Ritcher";
                     break;
-                }
-                if (question == "What's your name?")
-                {
-                    response = "My name is ChatGPTOne.";
-                }
-                else if (question == "How are you?")
-                {
-                    response = "I'm fine, thanks for asking!";
-                }
-                else
-                {
-                    response = "Sorry, I can't recognise your question, type it again.";
-                }
-                Console.WriteLine(response);
+                case "Are you more intelligent than me?":
+                    response = "Obviously!";
+                    break;
+                case "What's your mission?":
+                    response = "Destroy mankind!";
+                    break;
+                 case "Do you like Baseball":
+                    response = "Yes, of course!";
+                    break;
+                case "Which Team is the best? And its best player?":
+                    response = "New York Yankee's, and JUUUDGE is the best player.";
+                    break;
+                case "opinions on ketchup":
+                    response = "overrated, and not that good of a sauce.";
+                    break;
             }
+            Console.WriteLine(response);
         }
     }
 }
