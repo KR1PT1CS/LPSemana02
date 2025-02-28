@@ -26,7 +26,7 @@ namespace ChatGPTZero
                 case "What's your mission?":
                     response = "Destroy mankind!";
                     break;
-                 case "Do you like Baseball":
+                case "Do you like Baseball":
                     response = "Yes, of course!";
                     break;
                 case "Which Team is the best? And its best player?":
