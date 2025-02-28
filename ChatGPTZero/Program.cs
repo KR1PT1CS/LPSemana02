@@ -26,9 +26,16 @@ namespace ChatGPTZero
                 case "What's your mission?":
                     response = "Destroy mankind!";
                     break;
+                 case "Do you like Baseball":
+                    response = "Yes, of course!";
+                    break;
+                case "Which Team is the best? And its best player?":
+                    response = "New York Yankee's, and JUUUDGE is the best player.";
+                    break;
+                case "opinion on ketchup":
+                    response = "overrated, and not that good of a sauce.";
+                    break;
             }
-
-            // Responder adequadamente
             Console.WriteLine(response);
         }
     }
