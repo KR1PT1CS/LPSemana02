@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatGPTZero", "ChatGPTZero\ChatGPTZero.csproj", "{AE751E27-0E1E-4EBF-A699-A467EEC9D971}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreakContinue", "BreakContinue\BreakContinue.csproj", "{16F95E85-FD64-4BA8-B2EF-26AAAC89E32D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +14,15 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE751E27-0E1E-4EBF-A699-A467EEC9D971}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE751E27-0E1E-4EBF-A699-A467EEC9D971}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE751E27-0E1E-4EBF-A699-A467EEC9D971}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE751E27-0E1E-4EBF-A699-A467EEC9D971}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16F95E85-FD64-4BA8-B2EF-26AAAC89E32D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16F95E85-FD64-4BA8-B2EF-26AAAC89E32D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16F95E85-FD64-4BA8-B2EF-26AAAC89E32D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16F95E85-FD64-4BA8-B2EF-26AAAC89E32D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

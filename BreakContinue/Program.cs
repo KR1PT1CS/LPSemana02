@@ -24,12 +24,22 @@ namespace BreakContinue
                     continue;
                 }
 
+                     continue;
+                }
+
+                // Skips current cycle if current turn is 10
+                if (turn == 10)
+                {
+                    
+                }
+
                 // Print turn number
                 Console.WriteLine($"Turn number {turn}");
-            }
+            
 
-            // Print number of last turn
-            Console.WriteLine($"Last turn was {turn}");
+
+               // Print number of last turn
+               Console.WriteLine($"Last turn was {turn}");
         }
     }
 }
